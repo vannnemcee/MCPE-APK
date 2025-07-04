@@ -6,20 +6,24 @@
   <title>Minecraft Official - Detail</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f9f9fb;
       margin: 0;
-      padding: 0;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      padding-top: 80px;
   
     }
     
-    header {
-      background: #007aff;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 24px;
+      header {
+  background: #007aff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 99%;
+  z-index: 999;
       
     }
     .container {
@@ -64,12 +68,13 @@
   gap: 15px;
     }
   
-  .app-desk {
+ .app-desk {
   background: white;
   border-radius: 12px;
   padding: 15px;
   margin-top: 20px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 0px 15px rgba(0,0,0,0.1);
+}
    
     }
     .badge {
@@ -177,23 +182,39 @@
     }
     
     .app-download {
-  padding: 10px 30px;
-  background: #1e90ff;
-  border-radius: 20px;
-  font-size: 18px;
-  text-decoration: none;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
   color: #000;
+  background-color: #d8e9f4;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
   display: inline-block;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
-  align-items: center;
-  transition: transform 0.2s;
+  text-align: center;
+  text-decoration: none;
+}
+
+.app-download:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: scale(1.10);
+}
+
+.app-download:active {
+  background-color: #17875a;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: scale(1.10);
+}
   
-    }
-  .app-download:hover {
-     transform: translateY(-5px);
-  
-  }
-    .build-version {
+.build-version {
   position: absolute;
   top: 10px;
   right: 20px;
@@ -203,6 +224,16 @@
 }
   .header {
   position: relative; /* tambahkan ini */
+  
+}
+  .badge {
+  display: inline-block;
+  background: #1e90ff;
+  color: white;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 12px;
+  margin-top: 5px;
   
 }
   </style>
@@ -220,17 +251,15 @@
     <div class="sidebar-content">
       <button id="closeSidebar" class="close-btn">✖</button>
       <h3><br><bold>Menu</bold></h3>
-      <ul>
-        <li><a href="index.html">Beranda</a></li>
-        <li><a href="https://saweria.co/VannMC">Support</a></li>
-        <li><a href="https://github.com/vannnemcee/MCPE-APK/issues">Lapor Masalah</a></li>
+        <ul class="fancy-menu">
+        <div class="app-desk">
+        <li><a href="https://vannnemcee.github.io/MCPE-APK/MCPEAPK.html" style="--clr:#00BFFF" data-text="Beranda">Beranda</a></li>
+        <li><a href="https://saweria.co/VannMC" style="--clr:#ffd000" data-text="Support">Support</a></li>
+        <li><a href="https://github.com/vannnemcee/MCPE-APK/issues" style="--clr:#ff0000" data-text="Masalah">Masalah</a></li>
       </ul>
     </div>
-  </div>
-  
-  <!-- Judul -->
-  <header>
-  <img src="https://files.catbox.moe/xmtl3i.png" alt="MCPE APK" style="height: 50px;"><span class="build-version">build version 1.1</span>
+  </div> <header>
+    <img src="https://raw.githubusercontent.com/vannnemcee/MCPE-APK/refs/heads/main/APKMCPE%20IMAGE/WEBAPP/20250704_023622.png" alt="MCPE APK" style="height: 50px;"><span class="build-version">build version 1.5</span>
 </header>
   
   <div class="container">
@@ -241,31 +270,31 @@
       <div>
         <div class="app-title">Minecraft Official</div>
         <div class="meta">Version - 1.21.93</div>
-        <div class="meta">Update - </div>
+        <div class="meta">Update - 19 Juni 2025</div>
       </div>
     </div>
 
     <div class="tags">
       <span class="badge">Official</span>
-      <span class="badge">1.21.93</span>
+      <span class="badge">1.21.92</span>
     </div>
     
    <div class="app-desk">
     <h3>Informasi Apl</h3>
     <p><bold>• Minecraft PE 300MB+</bold><strong>(Tanpa Musik)</strong><br>
-    <p><bold>• Minecraft PE 560MB+</bold><strong>(Ada Musik nya)</strong><br>
+    <p><bold>• Minecraft PE 570MB+</bold><strong>(Ada Musik nya)</strong><br>
     <br>
     <br>
     <p>!! 𝐏𝐚𝐬𝐭𝐢𝐤𝐚𝐧 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐬𝐞𝐬𝐮𝐚𝐢 𝐝𝐞𝐧𝐠𝐚𝐧 𝐩𝐞𝐧𝐲𝐢𝐦𝐩𝐚𝐧𝐚𝐧 𝐤𝐚𝐦𝐮 !!</p>
 
     <h3>Link Download :</h3>
-    <p><a href="https://sfl.gl/3rjLs8" class="app-download">Download 300mb+</a></p>
-    <p><a href="https://sfl.gl/GZvbScf" class="app-download">Download 560mb+</a></p>
+    <p><a href="https://sfl.gl/NGsI" class="app-download">Download 300mb+</a></p>
+    <p><a href="https://sfl.gl/J4oNao" class="app-download">Download 570mb+</a></p>
     <p><a href="https://youtu.be/vRiCAz2ZOBg?si=Xiqx2UjUmlH37kxV" >Cara lewatin link diatas</a></p>
     <br>
     <h3>Apa saja yang baru :</h3>
-    <p><a href="error.html" class="app-download">Changelog</a></p>
-    <p>!! Jikalau Link itu error, beritahu admin di grup MabarMCPE !!</p>
+    <p><a href="https://feedback.minecraft.net/hc/en-us/articles/37810171798029-Minecraft-1-21-93-Bedrock" class="app-download">Changelog</a></p>
+    <p>!! Jikalau Link itu error, beritau admin dengan pilih menu lalu klik masalah !!</p>
     </div>
     <br>
     <div class="app-header">
