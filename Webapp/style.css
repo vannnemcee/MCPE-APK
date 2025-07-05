@@ -212,5 +212,37 @@
   margin-top: 20px;
   box-shadow: 0 0px 15px rgba(0,0,0,0.1);
 }
+  /* Social Icons */
+.social-menu {
+    margin: 30px auto;
+    text-align: center;
+}
 
+.social-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 15px;
+}
+
+.social-menu ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #d8e9f4;
+    border-radius: 50%;
+    color: #333;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-menu ul li a:hover {
+    background: #23c483;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   </style>
