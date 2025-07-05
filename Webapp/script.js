@@ -1,4 +1,4 @@
- <script>
+
     const menuBtn = document.getElementById("menuToggle");
     const sidebar = document.getElementById("sidebar");
     const overlay = document.getElementById("overlay");
@@ -43,4 +43,3 @@
         }
       }
     }
-  </script>
